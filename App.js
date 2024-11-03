@@ -1,6 +1,6 @@
 import React from "react";
 import { KeyboardAvoidingView, StyleSheet, Text, View, TextInput, TouchableOpacity, Keyboard, ScrollView } from 'react-native';
-import Task from './Components/Task';
+import Task from "./Components/Task";
 
 export default function App() {
   const [task, setTask] = useState();
